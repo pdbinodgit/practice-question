@@ -5,7 +5,7 @@ public class ValidParentheses {
         if ((c.startsWith("(")||c.startsWith("{")||c.startsWith("["))&&
                 (c.endsWith(")")||c.endsWith("}")||c.endsWith("]"))
         ){
-            if (c.startsWith("(")&&c.endsWith(")")){
+            if (c.startsWith("(")&& c.endsWith(")")){
             System.out.println(true);
             } else if (c.startsWith("{")&&c.endsWith("}")) {
                 System.out.println(true);
