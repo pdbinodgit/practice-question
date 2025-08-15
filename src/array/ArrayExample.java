@@ -10,6 +10,5 @@ public class ArrayExample {
         * */
 
         int[] arr={1,2,4,4,5};
-        System.out.println(arr[1]);
-    }
+        System.out.println(arr[1]);}
 }
